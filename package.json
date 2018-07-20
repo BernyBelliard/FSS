@@ -2,12 +2,7 @@
   "name": "fss",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "node ./bin/www"
   },
   "private": true,
   "dependencies": {
@@ -20,7 +15,23 @@
     "@angular/platform-browser": "^6.0.3",
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^4.1.2",
+    "connect-multiparty": "^2.0.0",
+    "cookie-parser": "~1.4.3",
     "core-js": "^2.5.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "gentelella": "^1.4.0",
+    "jquery": "^3.3.1",
+    "jsrender": "^0.9.90",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.17.1",
+    "mongoose": "^5.2.1",
+    "mongoose-pagination": "^1.0.0",
+    "morgan": "~1.9.0",
+    "popper.js": "^1.14.3",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },

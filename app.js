@@ -1,7 +1,16 @@
+/* "ng": "ng",
+  "start": "ng serve",
+  "build": "ng build",
+  "test": "ng test",
+  "lint": "ng lint",
+  "e2e": "ng e2e"
+"start": "node ./bin/www",
+*/
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var jsrender = require('jsrender');
 var mongoose = require('mongoose');
 
 // Conectando con la base de datos MongoDB
